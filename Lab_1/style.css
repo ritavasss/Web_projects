@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #5f636b;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #474a51;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e4a010;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e4a010;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #e4a010;
+}
+
+li h3 {
+    margin-top: 0;
+    color: #e4a010;
+}
+
+li p {
+    margin-bottom: 0;
+    color: #555;
+}
+
+li em {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Стиль для списка заметок */
+.note-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Стиль для отдельной заметки */
+.note {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Стиль для заголовка заметки */
+.note-title {
+    font-size: 18px;
+    color: #474a51;
+    margin-bottom: 5px;
+}
+
+/* Стиль для содержимого заметки */
+.note-content {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Стиль для даты создания заметки */
+.note-date {
+    font-size: 12px;
+    color: #777;
+}

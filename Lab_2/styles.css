@@ -1,0 +1,165 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.welcome {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section.popular-categories {
+    padding: 20px 0;
+}
+
+section.registration-form {
+    padding: 20px 0;
+    text-align: center;
+}
+
+section.registration-form form {
+    display: inline-block;
+    text-align: left;
+}
+
+section.registration-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+section.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+section.registration-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.registration-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.image {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+}
+
+section.add-lesson {
+    padding: 20px 0;
+    text-align: center;
+}
+
+section.add-lesson form {
+    display: inline-block;
+    text-align: left;
+}
+
+section.add-lesson label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+section.add-lesson input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+section.add-lesson textarea {
+    font-family: Arial, sans-serif;
+}
+
+section.add-lesson input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.add-lesson input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Стиль для отдельной заметки */
+.note {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Стиль для заголовка заметки */
+.note-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Стиль для содержимого заметки */
+.note-content {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Стиль для даты создания заметки */
+.note-date {
+    font-size: 12px;
+    color: #777;
+}

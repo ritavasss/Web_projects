@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hobby Tutorials</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hobby Tutorials</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Главная</a></li>
+                    <li><a href="registration.html">Регистрация</a></li>
+                    <li><a href="login.html">Вход</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="registration-form">
+        <div class="container">
+            <h2>Регистрация</h2>
+            <form action="registration_process.php" method="POST">
+                <label for="username">Логин:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="firstname">Имя:</label>
+                <input type="text" id="firstname" name="firstname" required>
+                <label for="lastname">Фамилия:</label>
+                <input type="text" id="lastname" name="lastname" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+                <input type="submit" value="Зарегистрироваться">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
